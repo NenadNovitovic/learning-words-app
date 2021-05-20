@@ -1,5 +1,6 @@
 import words from './wordsdata.json'
 import React, { useState,useRef } from 'react'
+import SpecificLetters from './SpecificLetters'
 
 export default function WordCheck( {mainLang, transLang} ) {
     const [wordsList , setWordsList] = useState(
@@ -54,8 +55,9 @@ export default function WordCheck( {mainLang, transLang} ) {
             <h1>Translate the word </h1>
             <span className="wordSpan"> {wordsList[wordIndex][mainLang]}</span>
             <form onSubmit={checkWord}>
-                <input ref={inputWordField} type="text"/>
+                <input autoFocus ref={inputWordField} type="text"/>
             </form>
+            <SpecificLetters transLang={transLang} textField={inputWordField}/>
             {outputMessage}
             <div>Correct words:{correctWordsCounter}</div>
             <div>Wrong words:{wrongWordsCounter} </div>

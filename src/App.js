@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import AddingSerbian from './AddingSerbian';
 import ChooseLanguage from './ChooseLanguage';
 import WordCheck from './WordCheck'
 

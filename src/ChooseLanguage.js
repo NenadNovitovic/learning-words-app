@@ -27,21 +27,3 @@ export default function ChooseLanguage({mainLang,transLang}) {
         </div>
     )
 }
-/*            <select name="mainLangSelect" onChange={changeLanguage}>
-                <option value="eng">English</option>
-                <option  value="swe">Swedish</option>
-                <option  value="srb">Serbian</option>
-            </select>  
-                        <select name="transLangSelect" onChange={changeLanguage}>
-                <option  value="eng">English</option>
-                <option value="swe">Swedish</option>
-                <option value="srb">Serbian</option>
-            </select>*/ 
-/*
-<fieldset id="mainLang">
-    <input type="radio" value="eng" name="mainLang">
-    <input type="radio" value="swe" name="mainLang">
-    <input type="radio" value="srb" name="mainLang">
-  </fieldset>
-
-*/
