@@ -8,7 +8,7 @@ function App() {
 
   return (
       <div className="container">
-        <ChooseLanguage mainLang={setMainLanguage} transLang={setTranslatedLanguage}/>
+        <ChooseLanguage mainLang={mainLanguage} setMainLang={setMainLanguage} transLang={translatedLanguage} setTransLang={setTranslatedLanguage}/>
         <WordCheck mainLang={mainLanguage} transLang={translatedLanguage}/>
       </div>
   );
