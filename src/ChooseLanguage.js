@@ -14,30 +14,32 @@ export default function ChooseLanguage({mainLang,setMainLang,transLang,setTransL
             setTransLang(e.target.value);
             setShowTransLangOptions(!showTransLangOptions);
         }
+        
+        console.log("promena "+e);
     }
 
     return (
         <div>
             <span>Translate from:</span>
-            <button onClick={()=>{
+            <button  className="button-6" onClick={()=>{
                 setShowMainLangOptions(!showMainLangOptions);
             }}>{mainLang}</button>
             <Collapse isOpened={showMainLangOptions}>
                 <fieldset onChange={changeLanguage} id="mainLang">
-                    <span>English <input type="radio" value="eng" name="mainLang"/></span>
-                    <span>Swedish <input defaultChecked type="radio" value="swe" name="mainLang"/></span>
-                    <span>Serbian <input type="radio" value="srb" name="mainLang"/></span>
+                    <label>English <input type="radio" value="eng" name="mainLang"/></label>
+                    <label>Swedish <input defaultChecked type="radio" value="swe" name="mainLang"/></label>
+                    <label>Serbian <input type="radio" value="srb" name="mainLang"/></label>
                 </fieldset>
             </Collapse>
             <span>Translate to:</span>
-            <button onClick={()=>{
+            <button className="button-6" onClick={()=>{
                 setShowTransLangOptions(!showTransLangOptions);
             }}>{transLang}</button>
             <Collapse isOpened={showTransLangOptions}>
             <fieldset onChange={changeLanguage} id="transLang">
-                <span>English <input defaultChecked type="radio" value="eng" name="transLang"/></span>
-                <span>Swedish <input type="radio" value="swe" name="transLang"/></span>
-                <span>Serbian <input type="radio" value="srb" name="transLang"/></span>
+                <label>English <input defaultChecked type="radio" value="eng" name="transLang"/></label>
+                <label>Swedish <input type="radio" value="swe" name="transLang"/></label>
+                <label>Serbian <input type="radio" value="srb" name="transLang"/></label>
             </fieldset>
             </Collapse>
             
