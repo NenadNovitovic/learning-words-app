@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/learning-words-app/static/css/main.d7c5eb51.chunk.css",
-    "main.js": "/learning-words-app/static/js/main.3d983005.chunk.js",
-    "main.js.map": "/learning-words-app/static/js/main.3d983005.chunk.js.map",
+    "main.css": "/learning-words-app/static/css/main.3b162036.chunk.css",
+    "main.js": "/learning-words-app/static/js/main.df1e9d63.chunk.js",
+    "main.js.map": "/learning-words-app/static/js/main.df1e9d63.chunk.js.map",
     "runtime-main.js": "/learning-words-app/static/js/runtime-main.2e653433.js",
     "runtime-main.js.map": "/learning-words-app/static/js/runtime-main.2e653433.js.map",
     "static/js/2.78cb8837.chunk.js": "/learning-words-app/static/js/2.78cb8837.chunk.js",
     "static/js/2.78cb8837.chunk.js.map": "/learning-words-app/static/js/2.78cb8837.chunk.js.map",
     "index.html": "/learning-words-app/index.html",
-    "static/css/main.d7c5eb51.chunk.css.map": "/learning-words-app/static/css/main.d7c5eb51.chunk.css.map",
+    "static/css/main.3b162036.chunk.css.map": "/learning-words-app/static/css/main.3b162036.chunk.css.map",
     "static/js/2.78cb8837.chunk.js.LICENSE.txt": "/learning-words-app/static/js/2.78cb8837.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2e653433.js",
     "static/js/2.78cb8837.chunk.js",
-    "static/css/main.d7c5eb51.chunk.css",
-    "static/js/main.3d983005.chunk.js"
+    "static/css/main.3b162036.chunk.css",
+    "static/js/main.df1e9d63.chunk.js"
   ]
 }
